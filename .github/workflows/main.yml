@@ -8,10 +8,7 @@ on:
         required: true
         default: 'warning'
       tags:
-        description: 'Test scenario tags'  
-  push:
-    branches:
-    - master
+        description: 'Test scenario tags'
 
 jobs:
   deploy:
